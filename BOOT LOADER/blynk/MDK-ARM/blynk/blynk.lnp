@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"blynk\startup_stm32f411xe.o"
+"blynk\main.o"
+"blynk\stm32f4xx_it.o"
+"blynk\stm32f4xx_hal_msp.o"
+"blynk\stm32f4xx_hal_rcc.o"
+"blynk\stm32f4xx_hal_rcc_ex.o"
+"blynk\stm32f4xx_hal_flash.o"
+"blynk\stm32f4xx_hal_flash_ex.o"
+"blynk\stm32f4xx_hal_flash_ramfunc.o"
+"blynk\stm32f4xx_hal_gpio.o"
+"blynk\stm32f4xx_hal_dma_ex.o"
+"blynk\stm32f4xx_hal_dma.o"
+"blynk\stm32f4xx_hal_pwr.o"
+"blynk\stm32f4xx_hal_pwr_ex.o"
+"blynk\stm32f4xx_hal_cortex.o"
+"blynk\stm32f4xx_hal.o"
+"blynk\stm32f4xx_hal_exti.o"
+"blynk\system_stm32f4xx.o"
+--strict --scatter "blynk\blynk.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "blynk.map" -o blynk\blynk.axf

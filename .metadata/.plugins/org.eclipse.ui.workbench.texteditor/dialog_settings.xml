@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="FLASH_Type_Program"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="FLASH_Type_Program"/>
+			<item value="execute_mem_write"/>
+			<item value="FLASHEx_Banks"/>
+			<item value="verify_address"/>
+			<item value="DBGMCU_IDCODE"/>
+			<item value="HAL_SYSTICK_Config"/>
+			<item value="BL_DEBUG_MSG_EN"/>
+			<item value="USER_VECT_TAB_ADDRESS"/>
+			<item value="SystemInit"/>
+			<item value="Reset_Handler"/>
+			<item value="VECT_TAB_OFFSET"/>
+			<item value="printmsg(char *format,...)"/>
+			<item value="void printmsg(char *format,...)"/>
+			<item value="void printmsg(char *format,...);"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1461"/>
+		<item key="DIALOG_Y_ORIGIN" value="472"/>
+		<item key="DIALOG_WIDTH" value="362"/>
+		<item key="DIALOG_HEIGHT" value="490"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+17:47:02 **** Incremental Build of configuration Debug for project 02_bld_userCode ****
+make -j8 all 
+arm-none-eabi-size   02_bld_userCode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8904	     40	   1672	  10616	   2978	02_bld_userCode.elf
+Finished building: default.size.stdout
+ 
+
+17:47:03 Build Finished. 0 errors, 0 warnings. (took 577ms)
+

@@ -1,0 +1,20 @@
+23:07:18 **** Incremental Build of configuration Debug for project bld_Code ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "bld_Code.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\my code\keil_workspace\bld_Code\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bld_Code.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bld_Code.elf
+ 
+arm-none-eabi-size   bld_Code.elf 
+arm-none-eabi-objdump -h -S  bld_Code.elf  > "bld_Code.list"
+arm-none-eabi-objcopy  -O binary  bld_Code.elf  "bld_Code.bin"
+   text	   data	    bss	    dec	    hex	filename
+  14448	    120	   1976	  16544	   40a0	bld_Code.elf
+Finished building: default.size.stdout
+ 
+Finished building: bld_Code.bin
+ 
+Finished building: bld_Code.list
+ 
+
+23:07:20 Build Finished. 0 errors, 0 warnings. (took 1s.278ms)
+
